@@ -1,0 +1,24 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Asuka Nocturnia 06JN102.moc3",
+		"Textures": [
+			"Asuka Nocturnia 06JN102.4096/texture_00.png",
+			"Asuka Nocturnia 06JN102.4096/texture_01.png"
+		],
+		"Physics": "Asuka Nocturnia 06JN102.physics3.json",
+		"DisplayInfo": "Asuka Nocturnia 06JN102.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
