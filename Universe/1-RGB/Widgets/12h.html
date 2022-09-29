@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- https://kawaentertainment.com/ -->
+    <meta charset="UTF-8" />
+    <title>Klock by Kawa Entertainment</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+
+    <!-- Font Importing -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Base Styles */
+      body { padding: 0; margin: 0; }
+      /* Custom Styles */
+      
+@import url("https://fonts.googleapis.com/css?family=ABeeZee");
+
+#timer-background {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8px 14px 8px 14px;
+  background: #ffffffff;
+  
+  
+  border-radius: 0px 8px 8px 0px
+}
+
+#timer-title {
+  display: inline-flex;
+  white-space: nowrap;
+  color: #000000;
+  font-weight: 400;
+  font-family: "ABeeZee";
+  font-size: 24px;
+  text-transform: Uppercase;
+}
+
+#timer-divider {
+  display: inline-flex;
+  white-space: nowrap;
+  color: #000000;
+  opacity: 0.5;
+  font-weight: 400;
+  font-family: "ABeeZee";
+  font-size: 16px;
+  text-transform: Lowercase;
+}
+
+#timer-divider.inactive {
+  display: none;
+}
+
+#timer {
+  display: inline-flex;
+  color: #000000;
+  font-weight: 400;
+  font-family: "ABeeZee";
+  font-size: 48px;
+}
+
+#timer-title.inactive {
+  display: none;
+}
+
+#timer span {
+  display: block;
+  text-align: center;
+  width: 27.428571428571427px;
+}
+
+      
+    </style>
+  </head>
+
+  <body translate="no">
+    <div id="timer-background">
+      <div id="timer-title"></div>
+      <div id="timer-divider"></div>
+      <div id="timer"></div>
+    </div>
+    <!-- Base Clock Code -->
+    <script>let t,timer=document.getElementById("timer"),timerDiv=document.getElementById("timer-divider"),timerTitle=document.getElementById("timer-title"),time_to=11.96,time_to_type="hours",human_readable="Yes",timer_type="Time",timer_result="ENDURANCE DONE!",timer_title="ENDURANCE ENDS",date_to="2022-09-09T01:58:48";offset=moment().add(time_to,time_to_type),t&&clearInterval(t),t=(()=>{let t="Time"==timer_type?offset:date_to,e=moment(t).format("L HH:mm"),i=!0;if("Yes"==human_readable&&"Date"==timer_type)e=moment(t).fromNow(!0),i=!1;else if("Time"==timer_type)switch(time_to_type){case"seconds":e=offset.diff(moment(),"seconds")+"s",i=!1;break;case"minutes":e=offset.diff(moment(),"minutes"),e+=":"+(offset.diff(moment(),"seconds")%60).toString().padStart(2,"0");break;case"hours":e=offset.diff(moment(),"hours"),e+=":"+(offset.diff(moment(),"minutes")%60).toString().padStart(2,"0"),e+=":"+(offset.diff(moment(),"seconds")%60).toString().padStart(2,"0")}i&&(e="<span>"+e.split("").join("</span><span>")+"</span>"),moment().add(1,"seconds")>moment(t)?(timerTitle&&timerTitle.classList.add("inactive"),timerDiv&&timerDiv.classList.add("inactive"),timer&&(timer.innerHTML=timer_result)):(timerTitle&&(timerTitle.innerHTML=timer_title),timerDiv&&(timerDiv.innerHTML="Date"==timer_type&&"Yes"==human_readable||"Time"==timer_type?"in":"at"),timer&&(timer.innerHTML=e))}),setInterval(()=>t(),500),t();</script>
+  </body>
+</html>

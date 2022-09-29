@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Veneer';
+    src: url('Veneer-Three.eot');
+    src: local('Veneer Three'), local('Veneer-Three'),
+        url('Veneer-Three.eot?#iefix') format('embedded-opentype'),
+        url('Veneer-Three.woff2') format('woff2'),
+        url('Veneer-Three.woff') format('woff'),
+        url('Veneer-Three.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Veneer';
+    src: url('Veneer-ThreeItalic.eot');
+    src: local('Veneer Three Italic'), local('Veneer-ThreeItalic'),
+        url('Veneer-ThreeItalic.eot?#iefix') format('embedded-opentype'),
+        url('Veneer-ThreeItalic.woff2') format('woff2'),
+        url('Veneer-ThreeItalic.woff') format('woff'),
+        url('Veneer-ThreeItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Veneer';
+    src: url('Veneer-Two.eot');
+    src: local('Veneer Two'), local('Veneer-Two'),
+        url('Veneer-Two.eot?#iefix') format('embedded-opentype'),
+        url('Veneer-Two.woff2') format('woff2'),
+        url('Veneer-Two.woff') format('woff'),
+        url('Veneer-Two.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Veneer';
+    src: url('Veneer-TwoItalic.eot');
+    src: local('Veneer Two Italic'), local('Veneer-TwoItalic'),
+        url('Veneer-TwoItalic.eot?#iefix') format('embedded-opentype'),
+        url('Veneer-TwoItalic.woff2') format('woff2'),
+        url('Veneer-TwoItalic.woff') format('woff'),
+        url('Veneer-TwoItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Veneer';
+    src: url('Veneer-Extras.eot');
+    src: local('Veneer Extras'), local('Veneer-Extras'),
+        url('Veneer-Extras.eot?#iefix') format('embedded-opentype'),
+        url('Veneer-Extras.woff2') format('woff2'),
+        url('Veneer-Extras.woff') format('woff'),
+        url('Veneer-Extras.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Veneer';
+    src: url('Veneer-ExtrasItalic.eot');
+    src: local('Veneer Extras Italic'), local('Veneer-ExtrasItalic'),
+        url('Veneer-ExtrasItalic.eot?#iefix') format('embedded-opentype'),
+        url('Veneer-ExtrasItalic.woff2') format('woff2'),
+        url('Veneer-ExtrasItalic.woff') format('woff'),
+        url('Veneer-ExtrasItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Veneer';
+    src: url('Veneer-Italic.eot');
+    src: local('Veneer Italic'), local('Veneer-Italic'),
+        url('Veneer-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Veneer-Italic.woff2') format('woff2'),
+        url('Veneer-Italic.woff') format('woff'),
+        url('Veneer-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Veneer';
+    src: url('Veneer.eot');
+    src: local('Veneer'),
+        url('Veneer.eot?#iefix') format('embedded-opentype'),
+        url('Veneer.woff2') format('woff2'),
+        url('Veneer.woff') format('woff'),
+        url('Veneer.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
