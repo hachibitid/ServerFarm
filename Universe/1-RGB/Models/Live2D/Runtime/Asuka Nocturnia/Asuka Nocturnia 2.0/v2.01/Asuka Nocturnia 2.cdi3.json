@@ -1,0 +1,256 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "Angle Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "EyeL Open"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "EyeL Smile"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "EyeR Open"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "EyeR Smile"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "Eyeball X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "Eyeball Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "BrowL Y"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "BrowR Y"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "BrowL X"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "BrowR X"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "BrowL Angle"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "BrowR Angle"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "BrowL Form"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "BrowR Form"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "Mouth Form"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "Mouth Open"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "Cheek"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "Body X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "Body Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "Body Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "Breath"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "hand"
+		},
+		{
+			"Id": "ParamHairFront4",
+			"GroupId": "",
+			"Name": "anting"
+		},
+		{
+			"Id": "ParamHairFront3",
+			"GroupId": "",
+			"Name": "baju"
+		},
+		{
+			"Id": "ParamHairFront2",
+			"GroupId": "",
+			"Name": "hand2"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "",
+			"Name": "Hair"
+		},
+		{
+			"Id": "ParamHairSide2",
+			"GroupId": "",
+			"Name": "PUPIL < 1"
+		},
+		{
+			"Id": "ParamHairSide5",
+			"GroupId": "",
+			"Name": "PUPIL > 2"
+		},
+		{
+			"Id": "ParamHairSide3",
+			"GroupId": "",
+			"Name": "bulmat <"
+		},
+		{
+			"Id": "ParamHairSide4",
+			"GroupId": "",
+			"Name": "bulmat >"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "",
+			"Name": "Hair Move Back"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "emoticon",
+			"Name": "emoticon"
+		},
+		{
+			"Id": "helai",
+			"Name": "helai"
+		},
+		{
+			"Id": "hairdepan",
+			"Name": "hairdepan"
+		},
+		{
+			"Id": "Part",
+			"Name": "Cat hear"
+		},
+		{
+			"Id": "SpecialFace",
+			"Name": "SpecialFace"
+		},
+		{
+			"Id": "expresion",
+			"Name": "expresion"
+		},
+		{
+			"Id": "blush",
+			"Name": "blush"
+		},
+		{
+			"Id": "Bagianmata",
+			"Name": "Bagianmata"
+		},
+		{
+			"Id": "Part2",
+			"Name": "bagian nose"
+		},
+		{
+			"Id": "mulut",
+			"Name": "mulut"
+		},
+		{
+			"Id": "Part3",
+			"Name": "kepala+body"
+		},
+		{
+			"Id": "crystalswings",
+			"Name": "crystalswings"
+		},
+		{
+			"Id": "bagiankaki",
+			"Name": "bagiankaki"
+		},
+		{
+			"Id": "tangan",
+			"Name": "tangan"
+		},
+		{
+			"Id": "Tali",
+			"Name": "Tali"
+		},
+		{
+			"Id": "hairblakang",
+			"Name": "hairblakang"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamMouthForm",
+			"ParamMouthOpenY"
+		]
+	]
+}

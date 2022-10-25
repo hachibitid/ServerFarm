@@ -1,0 +1,55 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Project Asuka V.2 (1).moc3",
+		"Textures": [
+			"Project Asuka V.2 (1).4096/texture_00.png"
+		],
+		"Physics": "Project Asuka V.2 (1).physics3.json",
+		"Pose": "project asuka v.pose3.json",
+		"DisplayInfo": "Project Asuka V.2 (1).cdi3.json",
+		"Expressions": [
+			{
+				"Name": "anya face",
+				"File": "expression1.exp3.json"
+			},
+			{
+				"Name": "hair",
+				"File": "expres.exp3.json"
+			},
+			{
+				"Name": "sad",
+				"File": "expression2.exp3.json"
+			},
+			{
+				"Name": "funny face",
+				"File": "expression3.exp3.json"
+			},
+			{
+				"Name": "mad",
+				"File": "expression4.exp3.json"
+			},
+			{
+				"Name": "kilau",
+				"File": "expression5.exp3.json"
+			},
+			{
+				"Name": "love",
+				"File": "expression6.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
