@@ -1,0 +1,30 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Asuka Nocturnia v2.0 (20221203).moc3",
+		"Textures": [
+			"Asuka Nocturnia v2.0 (20221203).4096/texture_00.png"
+		],
+		"Physics": "Asuka Nocturnia v2.0 (20221203).physics3.json",
+		"DisplayInfo": "Asuka Nocturnia v2.0 (20221203).cdi3.json",
+		"Expressions": [
+			{
+				"Name": "bored",
+				"File": "bored.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
